@@ -7,7 +7,7 @@
 body {
   width: 1280px;
   margin: 0 auto;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 /* header section styles start  */
 .sign-in-btn {
@@ -86,33 +86,30 @@ header nav {
 /* hero section styles end  */
 
 /* pillars section styles start  */
-.pillars h1{
-    color: #0E0E0E;
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 32px;
-margin-top: 80px;
+.pillars h1 {
+  color: #0e0e0e;
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+  margin-top: 80px;
 }
 .pillars-card {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.805);
-  width: 302px;
-  height: 244px;
+  flex: 1 1 0%;
   padding: 24px;
-  
 }
 .pillars-card h3 {
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  text-align: left;
-  margin-top: 32px;
+  margin-top: 25px;
 }
 .pillars-card p {
   color: rgba(14, 14, 14, 0.7);
@@ -123,7 +120,66 @@ margin-top: 80px;
   text-align: left;
   margin-top: 12px;
 }
-.pillar-cards-parent{
-    display: flex;
-    gap: 24px;
+.pillar-cards-parent {
+  display: flex;
+  gap: 24px;
+}
+/* pillar section styles end  */
+
+/* vision section styles start  */
+.future-vision h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+.future-vision-para{
+    margin-bottom: 32px;
+}
+.future-vision-para p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-cards-parent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+}
+
+.vision-card-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+}
+.vision-card-2 {
+  background-color: #C6E4D6;
+  padding: 32px;
+}
+.vision-card-3 {
+  background-color: #F7EBCF;
+  padding: 32px;
+}
+.vision-card button{
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: white;
+    border: none;
+    margin-top: 24px;
+}
+.vision-card button:hover{
+    cursor: pointer;
+}
+.vision-card-1 button {
+  background-color: #5490f5;
+}
+.vision-card-2 button {
+  background-color: #09A15C;
+}
+.vision-card-3 button {
+  background-color: #FFC239;
 }
