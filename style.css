@@ -8,17 +8,33 @@ body {
   width: 1280px;
   margin: 0 auto;
 }
-
+/* header section styles start  */
+.sign-in-btn {
+  background-color: #f5f5f5;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: rgb(0, 106, 80);
+}
+.sign-in-btn:hover{
+    cursor: pointer;
+    background-color: #020c0a16;
+}
 header nav {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-
   height: 100px;
 }
-/* hero section styles  */
+/* header section styles end  */
+
+/* hero section styles start */
 .hero {
   background-color: #c6e4d6;
   border-radius: 24px;
@@ -62,3 +78,8 @@ header nav {
   border-radius: 5px;
   border: none;
 }
+.hero-btn:hover{
+    cursor: pointer;
+    background-color: #006a50df;
+}
+/* hero section styles end  */
