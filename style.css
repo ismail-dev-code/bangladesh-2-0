@@ -7,6 +7,7 @@
 body {
   width: 1280px;
   margin: 0 auto;
+  background-color: #F5F5F5;
 }
 /* header section styles start  */
 .sign-in-btn {
@@ -20,9 +21,9 @@ body {
   line-height: 22px;
   color: rgb(0, 106, 80);
 }
-.sign-in-btn:hover{
-    cursor: pointer;
-    background-color: #020c0a16;
+.sign-in-btn:hover {
+  cursor: pointer;
+  background-color: #020c0a16;
 }
 header nav {
   display: flex;
@@ -78,8 +79,51 @@ header nav {
   border-radius: 5px;
   border: none;
 }
-.hero-btn:hover{
-    cursor: pointer;
-    background-color: #006a50df;
+.hero-btn:hover {
+  cursor: pointer;
+  background-color: #006a50df;
 }
 /* hero section styles end  */
+
+/* pillars section styles start  */
+.pillars h1{
+    color: #0E0E0E;
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+margin-top: 80px;
+}
+.pillars-card {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.805);
+  width: 302px;
+  height: 244px;
+  padding: 24px;
+  
+}
+.pillars-card h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 32px;
+}
+.pillars-card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 12px;
+}
+.pillar-cards-parent{
+    display: flex;
+    gap: 24px;
+}
