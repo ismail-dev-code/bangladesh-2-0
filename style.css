@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   background-color: #f5f5f5;
 }
-/* header section styles start  */
+/* header styles start*****************/
 .sign-in-btn {
   background-color: #f5f5f5;
   padding: 15px 30px;
@@ -33,9 +33,9 @@ header nav {
   align-items: center;
   height: 100px;
 }
-/* header section styles end  */
+/* header styles end  ***************/
 
-/* hero section styles start */
+/* hero section styles start *****************/
 .hero {
   background-color: #c6e4d6;
   border-radius: 24px;
@@ -45,7 +45,6 @@ header nav {
   gap: 64px;
   padding: 80px 60px;
 }
-
 .hero-content h3 {
   font-size: 24px;
   font-weight: 500;
@@ -83,9 +82,9 @@ header nav {
   cursor: pointer;
   background-color: #006a50df;
 }
-/* hero section styles end  */
+/* hero section styles end  *****************/
 
-/* pillars section styles start  */
+/* pillars section styles start  **************/
 .pillars h1 {
   color: #0e0e0e;
   font-family: Fira Sans;
@@ -124,9 +123,9 @@ header nav {
   display: flex;
   gap: 24px;
 }
-/* pillar section styles end  */
+/* pillars section styles end ************ */
 
-/* vision section styles start  */
+/*future vision section styles start ********* ****/
 .future-vision h1 {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
@@ -138,8 +137,6 @@ header nav {
 }
 .future-vision-para {
   margin-bottom: 32px;
-}
-.future-vision-para p {
   color: rgba(14, 14, 14, 0.7);
 }
 .vision-cards-parent {
@@ -183,9 +180,9 @@ header nav {
 .vision-card-3 button {
   background-color: #ffc239;
 }
-/* vision section styles end */
+/* future vision section styles end *************/
 
-/* advisor speech section start  */
+/* advisor speech section start  ************/
 .advisor-speech {
   margin-top: 32px;
   background-color: white;
@@ -223,11 +220,66 @@ header nav {
   text-align: left;
   margin: 4px 0px;
 }
-/* .advisor-speech section styles end  */
+/* advisor speech section styles end  **************/
 
-/* opinion section start  */
+/* opinion section start  *****************/
+.parent {
+  border-radius: 16px;
+  padding: 32px;
+  background: rgb(255, 255, 255);
+}
+.opinion h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+.question-one {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid black;
+  border-top: none;
+}
+.oneh4 {
+  padding-top: 35px;
+  padding-left: 24px;
+  margin: 0 auto;
+  width: 90%;
+  border-right: 1px solid black;
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 600;
+}
+.question-head {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  padding: 24px;
+  border: 1px solid black;
+}
+select {
+  background-color: #c6e4d6;
+  padding: 12px 14px;
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 500;
+}
+.select-choose {
+  padding: 24px;
+}
 
-/* news section start ***************** */
+.question-head h2 {
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+/* opinion section end****************/
+
+/* recent-news section start ******** */
 .recent-news {
   margin-top: 80px;
 }
@@ -293,9 +345,9 @@ header nav {
   cursor: pointer;
   background-color: #006a50e8;
 }
-/* donate section styles start  */
+/* recent-news section end ***************** */
 
-/* news section end ***************** */
+/* donate section styles start *********** */
 .donate {
   margin: 80px 0;
   display: flex;
@@ -345,9 +397,6 @@ header nav {
 .donate-btn .tk200-btn {
   background-color: #c6e4d6;
 }
-
-.input-area {
-}
 .input-area [type="text"] {
   padding: 20px;
   color: rgba(14, 14, 14, 0.3);
@@ -380,8 +429,9 @@ header nav {
   cursor: pointer;
   background-color: #006a50e8;
 }
+/* donate section styles end *********** */
 
-/* subscribe section start  */
+/* subscribe section start  **********/
 .subscribe {
   padding: 80px 100px 80px 100px;
   border-radius: 24px;
@@ -424,8 +474,10 @@ header nav {
   text-align: center;
   margin-top: 25px;
 }
+/* subscribe section end  **********/
 
-/* footer styles start  */
+
+/* footer styles start  *********/
 footer {
   display: flex;
   justify-content: center;
@@ -449,6 +501,7 @@ footer h1 {
   gap: 23px;
   margin-bottom: 50px;
 }
-.footer-social:hover{
+.footer-social:hover {
   cursor: pointer;
 }
+/* footer styles end  *********/
