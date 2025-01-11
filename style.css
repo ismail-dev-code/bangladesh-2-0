@@ -288,15 +288,6 @@ header nav {
 .card-text button {
   margin-top: 32px;
   padding: 13px 26px;
-  background-color: #006a50;
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
-  border-radius: 8px;
-  border: none;
 }
 .card-text button:hover {
   cursor: pointer;
@@ -370,11 +361,12 @@ header nav {
   width: 75%;
   border: none;
   text-align: center;
+  margin-bottom: 32px;
 }
 .input-area [type="text"]::placeholder {
   color: rgba(14, 14, 14, 0.3);
 }
-.input-area button {
+.primary-btn {
   background-color: #006a50;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -383,5 +375,52 @@ header nav {
   padding: 17px 34px 17px 34px;
   border-radius: 8px;
   border: none;
-  margin-top: 32px;
+}
+.primary-btn:hover{
+  cursor: pointer;
+  background-color: #006a50e8;
+}
+
+/* subscribe section start  */
+.subscribe {
+  padding: 80px 100px 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.subscribe h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.subscribe p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.subscribe-input input{
+  padding: 18px 40px;
+  width: 600px;
+  border: none;
+  border-radius: 8px 0px 0 8px;
+}
+.subscribe-input button{
+  border-radius: 0 8px 8px 0;
+  margin-left: -4.5px;
+}
+.subscribe-promise{
+  color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-top: 25px;
 }
