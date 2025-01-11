@@ -136,11 +136,11 @@ header nav {
   margin-top: 80px;
   margin-bottom: 24px;
 }
-.future-vision-para{
-    margin-bottom: 32px;
+.future-vision-para {
+  margin-bottom: 32px;
 }
-.future-vision-para p{
-    color: rgba(14, 14, 14, 0.7);
+.future-vision-para p {
+  color: rgba(14, 14, 14, 0.7);
 }
 .vision-cards-parent {
   display: flex;
@@ -154,32 +154,151 @@ header nav {
   padding: 32px;
 }
 .vision-card-2 {
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
   padding: 32px;
 }
 .vision-card-3 {
-  background-color: #F7EBCF;
+  background-color: #f7ebcf;
   padding: 32px;
 }
-.vision-card button{
-    padding: 11px 20px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19px;
-    color: white;
-    border: none;
-    margin-top: 24px;
+.vision-card button {
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: white;
+  border: none;
+  margin-top: 24px;
 }
-.vision-card button:hover{
-    cursor: pointer;
+.vision-card button:hover {
+  cursor: pointer;
 }
 .vision-card-1 button {
   background-color: #5490f5;
 }
 .vision-card-2 button {
-  background-color: #09A15C;
+  background-color: #09a15c;
 }
 .vision-card-3 button {
-  background-color: #FFC239;
+  background-color: #ffc239;
+}
+/* vision section styles end */
+
+/* advisor speech section start  */
+.advisor-speech {
+  margin-top: 32px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 48px 24px;
+}
+.advisor-content {
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+}
+.advisor-speech .p1 {
+  color: rgba(14, 14, 14, 0.8);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.advisor-speech p {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.advisor-speech h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 4px 0px;
+}
+/* .advisor-speech section styles end  */
+
+/* opinion section start  */
+
+/* news section start ***************** */
+.recent-news {
+  margin-top: 80px;
+}
+.recent-news h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.news-p1 {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.news-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.news-card1 {
+  padding: 48px;
+  background-color: white;
+  display: flex;
+  border-radius: 24px;
+  gap: 32px;
+}
+.news-card1 img {
+  border-radius: 24px;
+}
+.card-text h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-text img {
+  margin: 12px 0;
+}
+.card-text p {
+  margin: 12px 0;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-text button {
+  margin-top: 32px;
+  padding: 13px 26px;
+  background-color: #006a50;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  border: none;
+}
+.card-text button:hover {
+  cursor: pointer;
+  background-color: #006a50e8;
 }
