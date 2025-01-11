@@ -397,6 +397,10 @@ select {
 .donate-btn .tk200-btn {
   background-color: #c6e4d6;
 }
+.donate-btn button:hover {
+  cursor: pointer;
+  background-color: #c6e4d6;
+}
 .input-area [type="text"] {
   padding: 20px;
   color: rgba(14, 14, 14, 0.3);
