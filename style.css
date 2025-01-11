@@ -376,7 +376,7 @@ header nav {
   border-radius: 8px;
   border: none;
 }
-.primary-btn:hover{
+.primary-btn:hover {
   cursor: pointer;
   background-color: #006a50e8;
 }
@@ -407,20 +407,48 @@ header nav {
   text-align: center;
   margin-bottom: 24px;
 }
-.subscribe-input input{
+.subscribe-input input {
   padding: 18px 40px;
   width: 600px;
   border: none;
   border-radius: 8px 0px 0 8px;
 }
-.subscribe-input button{
+.subscribe-input button {
   border-radius: 0 8px 8px 0;
   margin-left: -4.5px;
 }
-.subscribe-promise{
+.subscribe-promise {
   color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
-text-align: center;
-margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* footer styles start  */
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 130px;
+  align-items: center;
+}
+footer h1 {
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 32px 0;
+  width: 1122px;
+  text-align: center;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-social {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 50px;
+}
+.footer-social:hover{
+  cursor: pointer;
 }
