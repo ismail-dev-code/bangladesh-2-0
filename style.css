@@ -302,3 +302,86 @@ header nav {
   cursor: pointer;
   background-color: #006a50e8;
 }
+/* donate section styles start  */
+
+/* news section end ***************** */
+.donate {
+  margin: 80px 0;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.donate-title h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.donate-title p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donate-btn {
+  gap: 32px;
+  display: flex;
+  justify-content: center;
+}
+.donate-btn button {
+  margin: 32px 0;
+  padding: 40px;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: none;
+  margin: 32px 0;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.donate-btn .tk200-btn {
+  background-color: #c6e4d6;
+}
+
+.input-area {
+}
+.input-area [type="text"] {
+  padding: 20px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  border: none;
+  text-align: center;
+}
+.input-area [type="text"]::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+}
+.input-area button {
+  background-color: #006a50;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 17px 34px 17px 34px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 32px;
+}
